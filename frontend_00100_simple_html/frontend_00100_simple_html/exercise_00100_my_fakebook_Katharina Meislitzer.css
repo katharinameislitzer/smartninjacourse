@@ -1,0 +1,25 @@
+body {
+  background-color: lightblue;
+}
+
+div { color: deeppink;
+    /* for tags */
+}
+
+#red {
+    color: red;
+    /* for classes */
+}
+
+.blue {color: blue;
+    /* for ids */
+}
+thead {
+    color: green;
+}
+
+.image {
+    padding: 10px;
+    border: 10px pink solid;
+    margin: 20px;
+}
