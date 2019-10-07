@@ -1,0 +1,6 @@
+        /*
+            Create styles for hovering ver a div with color change
+        */
+.background {background: red;}
+
+.background:hover {background: green;}
