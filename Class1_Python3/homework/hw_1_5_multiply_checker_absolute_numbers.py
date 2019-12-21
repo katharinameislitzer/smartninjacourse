@@ -1,4 +1,4 @@
-def multiplication(number_1: int, number_2: int) -> int:
+def multiplication(number_1: float, number_2: float) -> float:
     result = number_1 * number_2
     return result
 
@@ -18,4 +18,5 @@ assert difference(2, 5)==10, difference(2, 5)
 assert difference(-2, 5)==-10, difference(-2, 5)
 assert difference(2, -5)==-10, difference(2, -5)
 assert difference(0, 0)==0, difference(0, 0)
+>>>>>>> 2d9766ed38f32a9639945ce208d5b304eff94b86
 print("SUCCESS!")
