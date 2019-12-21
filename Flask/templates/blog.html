@@ -1,0 +1,27 @@
+{% extends "frame.html" %}
+
+{% block title %}
+    blog
+{% endblock title %}
+
+{% block css %}
+    <link rel="stylesheet" href="/static/css/index.css">
+{% endblock css %}
+
+{% block content %}
+    <body>
+<h1>Super Receipe blog</h1>
+{% for receipe in receipes %}
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">{{receipe.name}}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{receipe.taste}}</h6>
+        <p class="card-text">{{receipe.description}}</p>
+        <a href="#" class="card-link">Get receipe</a>
+        <a href="#" class="card-link">Rate receipe</a>
+    </div>
+</div>
+{% endfor %}
+
+</body>
+{% endblock content %}
